@@ -1,0 +1,9 @@
+.classe{
+    display: flex;
+    gap: 5px;
+}
+
+
+.padding{
+    padding-top:50px;
+}

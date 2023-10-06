@@ -1,0 +1,18 @@
+.profile{
+    display: flex;
+    gap:  12px; /* Adiciona espaçamento em todos os elementos dentro do flex*/
+    align-items: center;
+    
+}
+
+.avatar{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.name{
+    font-size: 16px;
+}

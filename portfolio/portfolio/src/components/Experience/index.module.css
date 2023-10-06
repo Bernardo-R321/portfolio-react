@@ -1,0 +1,26 @@
+.experience{
+    width: 10%;
+    border-color: black;
+    border-radius: 8px;
+    border: 1px;
+    border-style: solid;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+
+.experience span{
+    font-size: 12px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.header h3{
+    margin: 0px;
+}
