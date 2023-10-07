@@ -1,9 +1,16 @@
 .classe{
     display: flex;
     gap: 5px;
+    margin-top: 10px;
 }
 
 
 .padding{
     padding-top:50px;
+    margin-bottom: 20px;
+}
+
+.aside{
+    display: flex;
+    flex-direction: column;
 }

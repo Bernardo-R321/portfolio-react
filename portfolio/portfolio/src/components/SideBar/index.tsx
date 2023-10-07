@@ -5,7 +5,7 @@ import styles from './index.module.css';
 
 export function SideBar(){
     return(
-    <>
+    <aside className={styles.aside}>
     <Profile />
     <div className={styles.classe}>
     <ExternalLink  texto={'Linkedin'} link={'https://www.linkedin.com/in/bernardo-ruschel-b6607a287/'}/>
@@ -16,6 +16,7 @@ export function SideBar(){
       <div>Experiência</div>
       <Experience cargo={'Cargo'} ano={'2010'} empresa={'Empresa'}/>
     </div>
-    </>
+    <ExternalLink texto={'Baixar Currículo'} link={''}/>
+    </aside>
     )
 }

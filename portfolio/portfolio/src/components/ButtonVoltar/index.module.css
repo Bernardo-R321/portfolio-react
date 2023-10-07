@@ -3,9 +3,12 @@
     padding: 10.5px 16px;
     border-radius: 8px;
     width: fit-content; /* Faz a div utiizar apenas o espaço do conteúdo*/
+    vertical-align: baseline;
 }
 
 .link{
     color: black;
-    text-decoration: underline;
+    text-decoration: none;
+    margin-right: 5px;
+    text-align: center;
 }

@@ -1,3 +1,19 @@
 .main{
     display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.projects{
+    justify-content: center;
+    margin-left: 300px;
+}
+
+.images{
+    padding-bottom: 5px;
+}
+
+#body{
+    padding: 20px;
+    overflow-x: hidden;
 }
